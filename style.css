@@ -1,0 +1,461 @@
+.container-for-all {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+    height: 37.375rem;
+    background-color: silver;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3125rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    border: 0.1rem grey solid;
+}
+
+.container-for-flag {
+    width: 25rem;
+    height: 2.8125rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1rem grey solid;
+}
+
+.container-for-smile {
+    width: 25rem;
+    height: 2.8125rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 0.1rem grey solid;
+}
+
+.container-for-cell {
+    width: 26.25rem;
+    height: 26.25rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.container-for-choice {
+    width: 25rem;
+    height: 2.8125rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.1rem grey solid;
+}
+
+.container-for-choice-field {
+    
+    width: 49%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container-for-choice-mine {
+    
+    width: 49%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.size-for-input {
+width: 3rem;
+height: 1rem;
+margin: 0.1rem;
+}
+
+
+.cell-art-size10 {
+    background-color: silver;
+    border: 1px black solid;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.cell-art-size10-black {
+   background-color: black;
+   border: 1px white solid;
+   height: 2.5rem;
+   width: 2.5rem;
+}
+
+.cell-art-size15 {
+    background-color: silver;
+    border: 1px black solid;
+    height: 1.625rem;
+    width: 1.625rem;
+}
+
+.cell-art-size15-black {
+    background-color: black;
+    border: 1px white solid;
+    height: 1.625rem;
+    width: 1.625rem;
+}
+
+.cell-art-size25 {
+    background-color: silver;
+    border: 1px black solid;
+    height: 0.925rem;
+    width: 0.925rem;
+}
+
+.little-info {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.btn-color {
+    display: none;
+}
+
+.change-theme {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.change-theme-body {
+    background-color: black;
+}
+
+
+.img-boom {
+    background-image: url(icons8-naval-mine-50.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img-boom-black {
+    background-image: url(icons8-land-mine-50white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.good-mark {
+    background-color: white;
+    border: 0.1rem black solid;
+}
+
+.red-flag-img {
+    background-image: url(icons8-flag-filled-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.red-flag-img-black {
+    background-image: url(icons8-flag-80white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.flag-container {
+    width: 24rem;
+    height: 2rem;
+    margin: 0;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.hidden-pop-up {
+    display: none;
+}
+
+.pop-up-win {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 5px;
+}
+
+.pop-up-game-over {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 5px;
+}
+
+.pop-up-button {
+    width: 9rem;
+    height: 2rem;
+    background-color: silver;
+    text-align: center;
+    color: black;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    border: 1px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.pop-up-button:hover {
+    cursor: pointer;
+}
+
+.pop-up-button-win {
+    width: 9rem;
+    height: 2rem;
+    background-color: silver;
+    text-align: center;
+    color: black;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    border: 1px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.pop-up-button-win:hover {
+    cursor: pointer;
+}
+
+.pop-up-game-over-text {
+    width: 9rem;
+    height: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: silver;
+    border-radius: 2px;
+    text-align: center;
+    color: red;
+    font-family: monospace;
+}
+
+.pop-up-win-text {
+    width: 7rem;
+    height: 7rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.color-text1 {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text2 {
+    color: green;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text3 {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text4 {
+    color: darkblue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text5 {
+    color: brown;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text6 {
+    color: turquoise;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text7 {
+    color: orange;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text8 {
+    color: yellow;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.color-text11 {
+    color: blue;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text22 {
+    color: green;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text33 {
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text44 {
+    color: darkblue;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text55 {
+    color: brown;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text66 {
+    color: turquoise;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text77 {
+    color: orange;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text88 {
+    color: yellow;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.color-text111 {
+    color: blue;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.color-text222 {
+    color: green;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.color-text333 {
+    color: red;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.color-text444 {
+    color: darkblue;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.color-text555 {
+    color: brown;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.color-text666 {
+    color: turquoise;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.color-text777 {
+    color: orange;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.color-text888 {
+    color: yellow;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.btn-smile {
+    width: 6rem;
+    height: 1.7rem;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 0.3rem;
+    background-color: silver;
+}
+
+.btn-smile:hover {
+    cursor: pointer;
+}
+
+.btn-color:hover {
+    cursor: pointer;
+}
+
+.container-for-choice-field label:hover {
+    cursor: pointer;
+}
+
+.container-for-choice-field input:hover {
+    cursor: pointer;
+}
+
+.container-for-choice-mine input:hover {
+    cursor: pointer;
+}
+
+.cell-art-size10:hover {
+    cursor: pointer;
+}
+
+.back {
+    background-color: dimgray;
+}
+
